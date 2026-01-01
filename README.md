@@ -6,9 +6,6 @@ Website resmi Desa Bojong Minggir, Pekalongan, Jawa Tengah. Platform digital yan
 
 - **Beranda**: Halaman utama dengan gambaran umum tentang Desa Bojong Minggir
 - **Profil Desa**: Informasi sejarah, geografi, data demografis, dan struktur pemerintahan
-- **Fasilitas & Infrastruktur**: Daftar lengkap fasilitas pendidikan, kesehatan, ibadah, dan infrastruktur
-- **Wisata**: Destinasi wisata menarik dengan deskripsi, lokasi, dan jam operasional
-- **Berita & Pengumuman**: Informasi terbaru dan pengumuman dari pemerintah desa
 - **Kontak & Lokasi**: Formulir kontak, informasi kontak, jam operasional, dan peta interaktif Google Maps
 - **Desain Responsif**: Optimal di desktop, tablet, dan mobile
 - **Navigasi Mudah**: Menggunakan React Router untuk navigasi seamless
