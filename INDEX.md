@@ -18,13 +18,18 @@ Navigasi lengkap untuk memahami struktur dan organisasi proyek.
 
 ### Documentation
 
-| File | Tujuan | Halaman |
-|------|--------|---------|
-| `README.md` | Overview & quick start | 150+ |
-| `DEVELOPMENT.md` | Panduan development | 300+ |
-| `DEPLOYMENT.md` | Panduan deployment | 350+ |
-| `PROJECT_SUMMARY.md` | Project summary & checklist | 200+ |
-| `INDEX.md` | File ini - Navigation guide | - |
+| File | Deskripsi | Target User |
+|------|-----------|-------------|
+| `README.md` | Overview & quick start | Semua |
+| `GETTING_STARTED.md` | Panduan memulai (step-by-step) | Pemula |
+| `START_HERE.md` | Halaman sambutan & ringkasan | Semua |
+| `USER_GUIDE.md` | Panduan pengguna lengkap | End User |
+| `DEVELOPMENT.md` | Panduan developer & teknis | Developer |
+| `DEPLOYMENT.md` | Panduan deployment lengkap | DevOps |
+| `QUICK_DEPLOY.md` | Opsi deployment cepat | DevOps |
+| `PROJECT_SUMMARY.md` | Status & ringkasan project | Stakeholder |
+| `DELIVERABLES.md` | Checklist serah terima project | Stakeholder |
+| `INDEX.md` | Indeks file & struktur project | Developer |
 
 ### Source Code (`src/`)
 
@@ -376,7 +381,7 @@ npm run lint     # Run ESLint checks
 | Routes | 6 |
 | Files | 18 |
 | Lines of Code | 2,500+ |
-| Documentation | 4 files |
+| Documentation | 10 files |
 | Total Sections | 25+ |
 | Images/Assets | Dynamic URLs |
 
@@ -441,10 +446,12 @@ npm audit fix       # Fix vulnerabilities
 
 ## 📞 Support Resources
 
-1. **DEVELOPMENT.md** - Untuk panduan development lengkap
-2. **DEPLOYMENT.md** - Untuk panduan deployment ke berbagai platform
-3. **README.md** - Untuk overview dan quick start
-4. **PROJECT_SUMMARY.md** - Untuk ringkasan project
+1. **START_HERE.md** - Halaman sambutan
+2. **README.md** - Overview project
+3. **DEVELOPMENT.md** - Panduan development
+4. **DEPLOYMENT.md** - Panduan deployment
+5. **USER_GUIDE.md** - Panduan pengguna
+6. **PROJECT_SUMMARY.md** - Ringkasan project
 
 ---
 

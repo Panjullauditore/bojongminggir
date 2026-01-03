@@ -81,6 +81,21 @@ desa_bojongminggir/
 └── .gitignore           # Git ignore file
 ```
 
+## 📚 Dokumentasi Project
+
+Project ini dilengkapi dengan 10 file dokumentasi lengkap:
+
+1. **README.md** - Dokumentasi utama & feature overview
+2. **GETTING_STARTED.md** - Panduan memulai (step-by-step)
+3. **START_HERE.md** - Halaman sambutan & ringkasan
+4. **USER_GUIDE.md** - Panduan pengguna lengkap
+5. **DEVELOPMENT.md** - Panduan developer & teknis
+6. **DEPLOYMENT.md** - Panduan deployment lengkap
+7. **QUICK_DEPLOY.md** - Opsi deployment cepat
+8. **PROJECT_SUMMARY.md** - Status & ringkasan project
+9. **DELIVERABLES.md** - Checklist serah terima project
+10. **INDEX.md** - Indeks file & struktur project
+
 ## 🎨 Warna & Desain
 
 - **Primary**: `#1F2937` (Abu-abu gelap)

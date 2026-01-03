@@ -80,7 +80,10 @@ desa_bojongminggir/
 ├── QUICK_DEPLOY.md         # Deploy cepat (recommended)
 ├── USER_GUIDE.md           # Panduan untuk pengguna
 ├── PROJECT_SUMMARY.md      # Ringkasan project
-└── INDEX.md                # Peta lengkap file
+├── INDEX.md                # Peta lengkap file
+├── DELIVERABLES.md         # Checklist deliverables
+├── START_HERE.md           # Halaman sambutan
+└── GETTING_STARTED.md      # Panduan memulai (ini)
 ```
 
 ---
@@ -90,12 +93,15 @@ desa_bojongminggir/
 | File | Untuk Siapa | Isi |
 |------|-------------|-----|
 | **README.md** | Semua orang | Overview, features, quick start |
+| **GETTING_STARTED.md** | Pemula | Panduan memulai step-by-step |
 | **USER_GUIDE.md** | Pengguna akhir | Cara menggunakan website |
 | **DEVELOPMENT.md** | Developer | Setup, componentes, styling, routing |
 | **DEPLOYMENT.md** | DevOps/Admin | Deploy ke berbagai platform |
 | **QUICK_DEPLOY.md** | Admin | Deploy cepat (recommended) |
 | **PROJECT_SUMMARY.md** | Manager/Client | Ringkasan project & checklist |
 | **INDEX.md** | Developer | Peta lengkap file & struktur |
+| **DELIVERABLES.md** | Stakeholder | Checklist serah terima project |
+| **START_HERE.md** | Semua orang | Halaman sambutan & ringkasan |
 
 ---
 
