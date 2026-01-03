@@ -38,8 +38,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link to="/" className="hover:text-secondary transition-colors">Beranda</Link></li>
               <li><Link to="/profil" className="hover:text-secondary transition-colors">Profil Desa</Link></li>
-              <li><Link to="/#potensi" className="hover:text-secondary transition-colors">Potensi</Link></li>
-              <li><Link to="/#berita" className="hover:text-secondary transition-colors">Berita</Link></li>
               <li><Link to="/kontak" className="hover:text-secondary transition-colors">Kontak Kami</Link></li>
             </ul>
           </div>
@@ -66,10 +64,6 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>© {currentYear} Pemerintah Desa Bojong Minggir. All rights reserved.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Kebijakan Privasi</a>
-            <a href="#" className="hover:text-white transition-colors">Syarat & Ketentuan</a>
-          </div>
         </div>
       </div>
     </footer>

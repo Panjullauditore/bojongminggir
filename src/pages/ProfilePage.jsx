@@ -49,11 +49,11 @@ export default function ProfilePage() {
                 </div>
                 <div className="flex justify-between border-b border-gray-200 pb-3">
                   <span className="font-semibold text-gray-700">Ketinggian:</span>
-                  <span className="text-gray-600">600-900 mdpl</span>
+                  <span className="text-gray-600">±18 - 25 mdpl</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-200 pb-3">
                   <span className="font-semibold text-gray-700">Luas Wilayah:</span>
-                  <span className="text-gray-600">±5.2 km²</span>
+                  <span className="text-gray-600">±1.5 - 2.0 km²</span>
                 </div>
               </div>
             </motion.div>
@@ -92,7 +92,7 @@ export default function ProfilePage() {
             >
               <FiUsers size={48} className="mx-auto text-secondary mb-4" />
               <p className="text-gray-600 text-lg mb-2">Total Penduduk</p>
-              <p className="text-4xl font-bold text-primary">5,200</p>
+              <p className="text-4xl font-bold text-primary">3.500 </p>
               <p className="text-sm text-gray-500 mt-2">Jiwa</p>
             </motion.div>
 
@@ -105,7 +105,7 @@ export default function ProfilePage() {
             >
               <FiTrendingUp size={48} className="mx-auto text-secondary mb-4" />
               <p className="text-gray-600 text-lg mb-2">Jumlah Keluarga</p>
-              <p className="text-4xl font-bold text-primary">1,100</p>
+              <p className="text-4xl font-bold text-primary">1.000</p>
               <p className="text-sm text-gray-500 mt-2">KK</p>
             </motion.div>
 
@@ -118,7 +118,7 @@ export default function ProfilePage() {
             >
               <FiMapPin size={48} className="mx-auto text-secondary mb-4" />
               <p className="text-gray-600 text-lg mb-2">Luas Wilayah</p>
-              <p className="text-4xl font-bold text-primary">5.2</p>
+              <p className="text-4xl font-bold text-primary">2.0</p>
               <p className="text-sm text-gray-500 mt-2">km²</p>
             </motion.div>
           </div>

@@ -9,8 +9,8 @@ export default function Home() {
     kabupaten: 'Pekalongan',
     kecamatan: 'Bojong',
     desa: 'Bojong Minggir',
-    luas: '±5.2 km²',
-    ketinggian: '650-900 mdpl',
+    luas: '±1.5 - 2.0 km²',
+    ketinggian: '±18 - 25 mdpl',
     deskripsi: 'Desa Bojong Minggir merupakan bagian dari Kecamatan Bojong, Kabupaten Pekalongan, dengan sebagian besar penduduk bermata pencaharian sebagai petani. Terletak di daerah yang memiliki keindahan alam dan potensi pertanian yang luar biasa.',
     karakteristik: 'Wilayah ini dikelilingi oleh pertanian berkelanjutan dan perkebunan yang hijau, menciptakan ekosistem yang seimbang dan udara yang sejuk sepanjang tahun.'
   }
