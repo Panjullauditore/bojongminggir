@@ -8,7 +8,8 @@ import ContactPage from './pages/ContactPage'
 import MaintenanceOverlay from './components/MaintenanceOverlay'
 
 function App() {
-  const [isMaintenance, setIsMaintenance] = useState(false)
+  // Toggle this to enable/disable maintenance mode
+  const isMaintenance = true
 
   return (
     <Router>
@@ -26,13 +27,7 @@ function App() {
         {/* Maintenance Overlay */}
         {isMaintenance && <MaintenanceOverlay />}
 
-        {/* Toggle Button (Dev Tool) */}
-        <button
-          onClick={() => setIsMaintenance(!isMaintenance)}
-          className="fixed bottom-4 right-4 z-[110] px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-full shadow-lg hover:bg-indigo-700 transition-colors"
-        >
-          {isMaintenance ? 'Disable Maintenance' : 'Enable Maintenance'}
-        </button>
+
       </div>
     </Router>
   )
