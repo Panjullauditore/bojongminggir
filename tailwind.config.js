@@ -7,12 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0f172a', // Slate 900
-        secondary: '#10b981', // Emerald 500
-        accent: '#f59e0b', // Amber 500
-        light: '#f8fafc', // Slate 50
-        dark: '#1e293b', // Slate 800
-        'primary-foreground': '#f1f5f9', // Slate 100
+        primary: '#071739', // Deep Navy
+        secondary: '#A68868', // Bronze
+        accent: '#E3C39D', // Beige
+        light: '#CDD5DB', // Light Cool Grey
+        dark: '#071739', // Deep Navy
+        muted: '#4B6382', // Steel Blue
+        'primary-foreground': '#CDD5DB', // Light Grey on Dark
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],

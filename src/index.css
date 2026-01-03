@@ -14,13 +14,13 @@
   }
 }
 
-@layer utilities {
+@layer components {
   .glass {
     @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-lg;
   }
 
   .glass-dark {
-    @apply bg-slate-900/80 backdrop-blur-lg border border-slate-700/50 shadow-lg;
+    @apply bg-primary/80 backdrop-blur-lg border border-primary/50 shadow-lg;
   }
 
   .text-gradient {
@@ -42,22 +42,24 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-300 rounded-full;
+  @apply bg-muted/60 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-slate-400;
+  @apply bg-muted;
 }
 
 /* Animation utilities if needed outside of Tailwind config */
-.delay-100 {
-  animation-delay: 100ms;
-}
+@layer utilities {
+  .delay-100 {
+    animation-delay: 100ms;
+  }
 
-.delay-200 {
-  animation-delay: 200ms;
-}
+  .delay-200 {
+    animation-delay: 200ms;
+  }
 
-.delay-300 {
-  animation-delay: 300ms;
+  .delay-300 {
+    animation-delay: 300ms;
+  }
 }
