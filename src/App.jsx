@@ -9,7 +9,7 @@ import MaintenanceOverlay from './components/MaintenanceOverlay'
 
 function App() {
   // Toggle this to enable/disable maintenance mode
-  const isMaintenance = true
+  const isMaintenance = false
 
   return (
     <Router>
