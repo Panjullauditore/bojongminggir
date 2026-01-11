@@ -25,6 +25,7 @@ const Navbar = () => {
   const navLinks = [
     { title: 'Beranda', path: '/' },
     { title: 'Profil Desa', path: '/profil' },
+    { title: 'UMKM', path: '/umkm' },
     { title: 'Kontak', path: '/kontak' },
   ]
 

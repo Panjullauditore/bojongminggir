@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import ProfilePage from './pages/ProfilePage'
 import ContactPage from './pages/ContactPage'
+import UMKMPage from './pages/UMKMPage'
 import MaintenanceOverlay from './components/MaintenanceOverlay'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/profil" element={<ProfilePage />} />
+            <Route path="/umkm" element={<UMKMPage />} />
             <Route path="/kontak" element={<ContactPage />} />
           </Routes>
         </main>
