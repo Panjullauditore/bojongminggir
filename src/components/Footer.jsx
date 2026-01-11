@@ -39,6 +39,7 @@ export default function Footer() {
               <li><Link to="/" className="hover:text-secondary transition-colors">Beranda</Link></li>
               <li><Link to="/profil" className="hover:text-secondary transition-colors">Profil Desa</Link></li>
               <li><Link to="/kontak" className="hover:text-secondary transition-colors">Kontak Kami</Link></li>
+              <li><Link to="/umkm" className="hover:text-secondary transition-colors">UMKM</Link></li>
             </ul>
           </div>
 
